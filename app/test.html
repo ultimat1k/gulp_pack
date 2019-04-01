@@ -13,8 +13,9 @@
 		</title>
 		<!-- build:css css/vendor.css-->
 		<!-- bower:css-->
-		<link rel="stylesheet" href="bower/bootstrap4/dist/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="bower/animate.css/animate.css" />
+		<link rel="stylesheet" href="bower/MDBootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="bower/MDBootstrap/css/mdb.min.css" />
 		<!-- endbower-->
 		<!-- endbuild-->
 		<!-- build:css css/main.css-->
@@ -22,32 +23,44 @@
 		<!-- endbuild-->
 	</head>
 	<body>
-		<header class="st-navbar">
-			<nav class="navbar navbar-default navbar-fixed-top clearfix" role="navigation">
-				<div class="container">
-					<div class="navbar-header">
-						<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#sept-main-nav"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="#"><img class="img-responsive" src="/photos/logo3.png" alt=""></a>
-					</div>
-					<div class="collapse navbar-collapse main-nav" id="sept-main-nav">
-						<ul class="nav navbar-nav navbar-right">
-							<li class="active"><a href="#home">Начало</a></li>
-							<li><a href="#about">О нас</a></li>
-							<li><a href="#service">Сервис</a></li>
-							<li><a href="#portfolio">Портфолио</a></li>
-							<li><a href="#pricing">Услуги</a></li>
-							<li><a href="#blog">Блог</a></li>
-							<li><a href="#contact">Контакты</a></li>
-						</ul>
-					</div>
+		<header>
+			<!-- Navbar-->
+			<nav class="navbar navbar-expand-lg navbar-dark primary-color">
+				<!-- Navbar brand--><a class="navbar-brand" href="#">Navbar</a>
+				<!-- Collapse button-->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+				<!-- Collapsible content-->
+				<div class="collapse navbar-collapse" id="basicExampleNav">
+					<!-- Links-->
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active"><a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+						<!-- Dropdown-->
+						<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+							<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+						</li>
+					</ul>
+					<!-- Links-->
+					<form class="form-inline">
+						<div class="md-form my-0">
+							<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+						</div>
+					</form>
 				</div>
+				<!-- Collapsible content-->
 			</nav>
+			<!-- /.Navbar
+			-->
 		</header>
 		<!-- build:js js/vendor.js-->
 		<!-- bower:js-->
 		<script src="bower/jquery/dist/jquery.js"></script>
-		<script src="bower/bootstrap4/dist/js/bootstrap.min.js"></script>
 		<script src="bower/jquery.nicescroll/jquery.nicescroll.min.js"></script>
 		<script src="bower/jquery.stellar/jquery.stellar.js"></script>
+		<script src="bower/typeit/dist/typeit.min.js"></script>
+		<script src="bower/MDBootstrap/js/bootstrap.min.js"></script>
+		<script src="bower/MDBootstrap/js/mdb.min.js"></script>
 		<!-- endbower-->
 		<!-- endbuild-->
 		<!-- build:js js/main.js-->
