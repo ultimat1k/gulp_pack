@@ -1,0 +1,19 @@
+footer{
+	background-color: #1F201B;
+}
+
+//my avtar
+.my_block{
+  width: 100%;
+  vertical-align: middle;
+  .my_avatar{
+    width: rem(50px);
+    height: rem(50px);
+    display: inline-block;
+    overflow: hidden;
+    .svg_img{
+      max-width: 100%;
+      border-radius: 50%;
+    }
+  }
+}

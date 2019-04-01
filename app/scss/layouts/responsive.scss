@@ -1,0 +1,131 @@
+
+
+
+// * {
+//   /* Calculation */
+//   --diff: calc(var(--max-size) - var(--min-size));
+//   --responsive: calc((var(--min-size) * 1px) + var(--diff) * ((100vw - 420px) / (1200 - 420)));
+//   /* Ranges from 421px to 1199px */
+// }
+
+// h1 {
+//   --max-size: 35;
+//   --min-size: 24;
+//   font-size: var(--responsive);
+// }
+
+// h2 {
+//   --max-size: 24;
+//   --min-size: 18;
+//   font-size: var(--responsive);
+// }
+
+// h3 {
+//   --max-size: 22;
+//   --min-size: 16;
+//   font-size: var(--responsive);
+// }
+
+// h4 {
+//   --max-size: 20;
+//   --min-size: 15;
+//   font-size: var(--responsive);
+// }
+
+// p {
+//   --max-size: 16;
+//   --min-size: 14;
+//   font-size: var(--responsive);
+// }
+
+// header {
+//   --max-size: 70;
+//   --min-size: 70;
+//   height: var(--responsive);
+// }
+
+// .heros_img {
+//   --max-size: 500;
+//   --min-size: 300;
+//   width: var(--responsive);
+// }
+
+// .intro_blocks {
+//   --max-size: 35;
+//   --min-size: 5;
+//   padding-top: var(--responsive);
+// }
+
+// .offer_logo {
+//   --max-size: 80;
+//   --min-size: 60;
+//   width: var(--responsive);
+// }
+
+// .user_text {
+//   --max-size: 12;
+//   --min-size: 12;
+//   font-size: var(--responsive);
+// }
+
+// .offer_text {
+//   display: block;
+//   --max-size: 22;
+//   --min-size: 16;
+//   font-size: var(--responsive);
+// }
+
+// .price_text {
+//   display: inline-block;
+//   text-shadow: 4px 4px 4px red;
+//   --max-size: 28;
+//   --min-size: 20;
+//   font-size: var(--responsive);
+//   .del_price {
+//     display: inline-block;
+//     --max-size: 24;
+//     --min-size: 16;
+//     font-size: var(--responsive);
+//   }
+// }
+
+
+
+
+
+  
+  
+
+
+// // //main_img
+// // .intro__img_main {
+// //   max-width: 100%;
+// // }
+
+// .user_logo {
+//   --max-size: 50;
+//   --min-size: 50;
+//   width: var(--responsive);
+// }
+
+// .offer_logo {
+//   --max-size: 60;
+//   --min-size: 60;
+//   width: var(--responsive);
+// }
+
+// //svg_logos
+// .user_name {
+//   display: block;
+//   --max-size: 22;
+//   --min-size: 16;
+//   width: var(--responsive);
+// }
+
+// .offer_items {
+//   --max-size: 320;
+//   --min-size: 250;
+//   width: var(--responsive);
+// }
+
+

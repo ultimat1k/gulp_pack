@@ -1,0 +1,31 @@
+//myCustomAdaptive
+@media screen and (max-width: 1200px) { //hd
+	html {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 992px) { //laptops
+	html {
+		font-size: 14px;
+	}
+
+}
+
+@media screen and (max-width: 768px) { //tablets
+	html {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 480px) { //phones
+	html {
+		font-size: 11px;
+	}
+}
+
+// @media screen and (max-width: 1199px) {
+//   .navbar:not(.top-nav-collapse) {
+//     background-color: #0ca8b9;
+//   }
+// }

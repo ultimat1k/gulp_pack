@@ -1,0 +1,47 @@
+//responsive
+@function rem($size) {
+	// @return $px / 16px + 0rem;
+	$remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: rem($size);
+}
+
+//adaptive
+@mixin desktop {
+	@media screen and (max-width: 1200px) { //hd
+		@content;
+	}
+	
+}
+
+@mixin laptop {
+	@media screen and (max-width: 992px) { //lap
+		@content;
+	}
+	
+}
+
+@mixin tablets {
+	@media screen and (max-width: 768px) { //tab
+		@content;
+	}
+	
+}
+
+@mixin phones {
+	@media screen and (max-width: 480px) { //phone
+		@content;
+	}
+	
+}
+
+// //CLEAR_FIX
+// article:after {
+//   content: " ";
+//   clear: both;
+//   display: table;
+// }

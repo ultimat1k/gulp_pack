@@ -1,0 +1,13 @@
+
+//mixins
+@import "mixins/custommix.scss";
+// ajustment
+@import "layouts/ajustment.scss";
+// sections style
+
+@import "sections/header.scss";
+@import "sections/menu.scss";
+@import "sections/content.scss";
+@import "sections/footer.scss";
+// //responsive_adaptive
+@import "adaptive/media.scss";

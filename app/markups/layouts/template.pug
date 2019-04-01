@@ -1,0 +1,31 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='utf-8')
+		meta(data-n-head='true', name='viewport', content='width=device-width,initial-scale=1,minimum-scale=1')
+		meta(http-equiv='x-ua-compatible', content='ie=edge')
+		//- keywords description
+		block description
+		//- // ФавИконка
+		block favicon
+		//- fonts
+		link(href="https://fonts.googleapis.com/css?family=Euphoria+Script|Oswald|Roboto+Condensed|Sedgwick+Ave|The+Girl+Next+Door|Unkempt" rel="stylesheet")
+		title
+			block title
+		//- styles
+		// build:css css/vendor.css
+		// bower:css
+		// endbower
+		// endbuild
+		// build:css css/main.css
+		link(href="css/main.css" rel="stylesheet")
+		// endbuild
+	body
+		block body
+		// build:js js/vendor.js
+		// bower:js
+		// endbower
+		// endbuild
+		// build:js js/main.js
+		script(src='js/main.js')
+		// endbuild

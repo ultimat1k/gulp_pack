@@ -1,0 +1,23 @@
+{
+  "name": "project",
+  "description": "",
+  "main": "gulpfile.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app/bower/",
+    "app/plugins",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "css-hamburgers": "^1.1.3",
+    "bootstrap4": "^4.3.1",
+    "jquery.nicescroll": "nicescroll#^3.7.6",
+    "animate.css": "^3.7.0",
+    "jquery.stellar": "^0.6.2"
+  }
+}
